@@ -1,5 +1,5 @@
 # assignment, use "<-" or "="
-f <- "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ColeBeck/steamer_updated14.csv"
+f <- "https://github.com/couthcommander/basicR/blob/master/steamer_updated14.csv"
 
 # can read straight from the Internet
 mlb <- read.csv(f)
@@ -29,7 +29,7 @@ library(foreign)
 help(package="foreign")
 # interesting functions, read/write dta files
 
-d <- "http://biostat.mc.vanderbilt.edu/wiki/pub/Main/ColeBeck/steamer_updated14.dta"
+d <- "https://github.com/couthcommander/basicR/blob/master/steamer_updated14.dta"
 mlb2 <- read.dta(d)
 
 # common descriptive functions
