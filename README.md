@@ -7,9 +7,18 @@ curve for using R is a roadblock for many researchers. This workshop serves to r
 Bring your lunch and laptop for a hands on learning experience. Learn how to install R and RStudio,
 transfer data between R and Stata, make plots, install an R package, and other basic functions.
 
-[R Data Import/Export](http://cran.r-project.org/doc/manuals/r-release/R-data.html)
+---
+
+[R](http://cran.us.r-project.org/)
+
+[R Studio](https://www.rstudio.com/)
+
+---
 
 ### Excerpt regarding SPSS and Stata
+
+[R Data Import/Export](http://cran.r-project.org/doc/manuals/r-release/R-data.html)
+
 Function read.spss can read files created by the ‘save’ and ‘export’ commands in SPSS.
 It returns a list with one component for each variable in the saved data set.
 SPSS variables with value labels are optionally converted to R factors.
@@ -25,3 +34,7 @@ Stata .dta files are a binary file format.
 Files from versions 5 up to 11 of Stata can be read and written by functions read.dta and write.dta.
 Stata variables with value labels are optionally converted to (and from) R factors.
 Stata version 12 by default writes ‘format-115 datasets’: read.dta currently may not be able to read those. 
+
+---
+
+[Source Material](https://github.com/couthcommander/basicR)
