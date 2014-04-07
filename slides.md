@@ -8,6 +8,7 @@ See: ?setwd, ?getwd
 
 * Panels (RStudio -> Preferences... -> Pane Layout)
 
+--- | ---
 Source | Environment, History
 Console | Files, Plots, Packages, Help, Viewer
 
