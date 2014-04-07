@@ -6,7 +6,6 @@ mlb <- read.csv(f)
 # or from a downloaded file
 mlb <- read.csv("Downloads/steamer_updated14.csv")
 
-# examine rstudio
 # environment tab, open dataset for viewing
 # many datasets and variables available at once
 # discuss variables and functions
