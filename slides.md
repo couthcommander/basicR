@@ -1,3 +1,23 @@
+## Why R?
+
+* Pros of Stata, SPSS, SAS
+1. User friendly
+2. Easy to experiment
+3. Big data
+
+* Pros of R
+
+1. Access to recently developed research methods
+     * nbpMatching package only available with R
+2. Reproducibility
+3. Customizable plots
+4. Availability of source code
+5. Free outside academia
+
+* Con: Learning curve of command-line tools
+
+---
+
 ## Examining RStudio
 
 * Setting the working directory, the default location for reading and writing files
