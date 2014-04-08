@@ -1,6 +1,7 @@
 ## Why R?
 
 * Pros of Stata, SPSS, SAS
+
 1. User friendly
 2. Easy to experiment
 3. Big data
