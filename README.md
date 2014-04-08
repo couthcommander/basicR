@@ -16,5 +16,3 @@ transfer data between R and Stata, make plots, install an R package, and other b
 ---
 
 [Presentation on Github](https://github.com/couthcommander/basicR)
-
-[Slides as PDF](https://gitprint.com/couthcommander/basicR/blob/master/slides.md)

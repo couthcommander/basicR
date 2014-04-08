@@ -71,13 +71,6 @@ Console | Files, Plots, Packages, Help, Viewer
 > It returns a list with one component for each variable in the saved data set.
 > SPSS variables with value labels are optionally converted to R factors.
 > 
-> SPSS Data Entry is an application for creating data entry forms.
-> By default it creates data files with extra formatting information that read.spss cannot handle,
-> but it is possible to export the data in an ordinary SPSS format.
-> 
-> Some third-party applications claim to produce data ‘in SPSS format’ but with differences in the formats:
-> read.spss may or may not be able to handle these.
-> 
 > Stata .dta files are a binary file format.
 > Files from versions 5 up to 11 of Stata can be read and written by functions read.dta and write.dta.
 > Stata variables with value labels are optionally converted to (and from) R factors.
@@ -110,7 +103,7 @@ See: ?apropos
 
 * Packages pane: load and install
 
-See: ?library, ?require, ?install.packages, ?update.pacakges, ?remove.packages
+See: ?library, ?require, ?install.packages, ?update.packages, ?remove.packages
 
 * Help pane: help is available
 

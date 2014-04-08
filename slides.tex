@@ -1,0 +1,172 @@
+\documentclass{beamer}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{longtable}
+\usepackage{hyperref}
+
+\hypersetup{colorlinks=true,urlcolor=blue}
+
+\usetheme{Warsaw}
+\title[Introduction to R]{A primer in R for Stata and SPSS users}
+\author{Cole Beck}
+\date{April 8, 2014}
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}{Why R?}
+
+Pros of Stata, SPSS, SAS
+
+\begin{enumerate}
+\item User friendly
+\item Easy to experiment
+\item Big data
+\end{enumerate}
+
+Pros of R
+
+\begin{enumerate}
+\item Access to recently developed research methods
+
+\begin{itemize}
+\item nbpMatching package only available with R
+\end{itemize}
+\item Reproducibility
+\item Customizable plots
+\item Availability of source code
+\item Free outside academia
+\end{enumerate}
+
+Biggest Con of R
+
+\begin{itemize}
+\item Learning curve of command-line tools
+
+\begin{itemize}
+\item RStudio helps
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Examining RStudio}
+
+Setting the working directory, the default location for reading and writing files
+
+\begin{itemize}
+\item Session -\textgreater{} Set Working Directory -\textgreater{} Choose Directory\ldots{}
+\end{itemize}
+
+See: ?setwd, ?getwd
+
+\begin{itemize}
+\item Panels (RStudio -\textgreater{} Preferences\ldots{} -\textgreater{} Pane Layout)
+\end{itemize}
+
+\begin{enumerate}
+\item Source: R script containing code
+\item Console: Interactive R session
+\item Environment: List of variables and functions
+\item History: History of commands from interactive session
+\item Files: Built-in file manager
+\item Plots: Generated plots
+\item Packages: Package management
+\item Help: Documentation
+\item Viewer: View local web content
+\end{enumerate}
+
+\end{frame}
+
+\begin{frame}{Importing Datasets}
+
+\begin{itemize}
+\item Delimited, fixed-width, binary files
+
+\begin{itemize}
+\item CSV (Comma separated values) are common
+\item Tab-delimited, and others
+\item Fixed-width need column widths
+\item Options for Stata and SPSS
+\end{itemize}
+\item Environment pane: Import Dataset
+
+\begin{itemize}
+\item Import from file or URL
+\end{itemize}
+\item Examine column information
+\item View dataset
+\end{itemize}
+
+\href{http://cran.r-project.org/doc/manuals/r-release/R-data.html}{R Data Import/Export}
+
+\end{frame}
+
+\begin{frame}{Excerpt regarding SPSS and Stata}
+
+\begin{quotation}
+Function read.spss can read files created by the ‘save’ and ‘export’ commands in SPSS.
+It returns a list with one component for each variable in the saved data set.
+SPSS variables with value labels are optionally converted to R factors.
+
+Stata .dta files are a binary file format.
+Files from versions 5 up to 11 of Stata can be read and written by functions read.dta and write.dta.
+Stata variables with value labels are optionally converted to (and from) R factors.
+Stata version 12 by default writes ‘format-115 datasets’: read.dta currently may not be able to read those.
+\end{quotation}
+
+\end{frame}
+
+\begin{frame}{Variables}
+
+\begin{itemize}
+\item Numbers: numeric
+\item Strings: character
+\item Boolean: logical (True and False)
+\item Datasets: data.frame, matrix
+\item Vectors and Lists
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Functions}
+
+\begin{itemize}
+\item Built-in commands
+\item User-defined
+\item Arguments
+\item Tab-completion
+\end{itemize}
+
+See: ?apropos
+
+\end{frame}
+
+\begin{frame}{Packages}
+
+\begin{itemize}
+\item Packages pane: load and install
+\end{itemize}
+
+See: ?library, ?require, ?install.packages, ?update.packages, ?remove.packages
+
+\begin{itemize}
+\item Help pane: help is available
+\end{itemize}
+
+Example: help(package=''foreign'')
+
+\end{frame}
+
+\begin{frame}{Plots}
+
+\begin{itemize}
+\item Plots pane: export with specified format and size
+\end{itemize}
+
+\end{frame}
+
+\end{document}
