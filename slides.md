@@ -1,12 +1,12 @@
 ## Why R?
 
-* Pros of Stata, SPSS, SAS
+#### Pros of Stata, SPSS, SAS
 
 1. User friendly
 2. Easy to experiment
 3. Big data
 
-* Pros of R
+#### Pros of R
 
 1. Access to recently developed research methods
      * nbpMatching package only available with R
@@ -15,7 +15,7 @@
 4. Availability of source code
 5. Free outside academia
 
-* Con: Learning curve of command-line tools
+#### Con: Learning curve of command-line tools
 
 ---
 
