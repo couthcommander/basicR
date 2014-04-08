@@ -15,7 +15,10 @@
 4. Availability of source code
 5. Free outside academia
 
-#### Con: Learning curve of command-line tools
+#### Biggest Con of R
+
+* Learning curve of command-line tools
+     * RStudio helps
 
 ---
 
